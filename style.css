@@ -1,0 +1,131 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  
+  .section {
+    padding: 60px 20px;
+  }
+  
+  /* Header Section */
+  header {
+    height: 100vh;
+    width:100%;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header h1 span {
+    color: #ffdd00;
+  }
+  header li{
+    font-size: medium;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin:0 30px;
+  }
+  
+  .nav-links a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffdd00;
+  }
+  
+  /* Skills Section */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .skill-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-card i {
+    font-size: 3rem;
+    color: #2575fc;
+  }
+  
+  /* Projects Section */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .project-card:hover{
+    color:yellow;
+    background-color: #2575fc;
+    transition: color 0.5s;
+  }
+  .skill-card:hover {
+    color: yellow; /* This changes the text color */
+    background-color: #2575fc; /* Background color change */
+    transition: color 0.5s;
+  }
+  
+  
+  
+  .skill-card:hover i {
+    color: white; /* Ensures the icon remains visible on hover */
+  }
+  
+  /* Contact Section */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .contact-grid i {
+    font-size: 2rem;
+    color: #2575fc;
+  }
+  
